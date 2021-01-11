@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="edu.upc.dsa.minim2.fragments.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/splashScreenFragment"
+        android:name="edu.upc.dsa.minim2.fragments.SplashScreenFragment"
+        android:label="fragment_splash_screen"
+        tools:layout="@layout/fragment_splash_screen" >
+        <action
+            android:id="@+id/action_splashScreenFragment_to_mainMenuFragment"
+            app:destination="@id/mainMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="edu.upc.dsa.minim2.fragments.MainMenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu" >
+        <action
+            android:id="@+id/action_mainMenuFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/noInternetConnectionFragment"
+        android:name="edu.upc.dsa.minim2.fragments.NoInternetConnectionFragment"
+        android:label="fragment_no_internet_connection"
+        tools:layout="@layout/fragment_no_internet_connection" />
+    <fragment
+        android:id="@+id/connectionErrorFragment"
+        android:name="edu.upc.dsa.minim2.fragments.ConnectionErrorFragment"
+        android:label="fragment_connection_error"
+        tools:layout="@layout/fragment_connection_error" />
+</navigation>

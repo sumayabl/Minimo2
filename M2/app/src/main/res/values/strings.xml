@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Firefighter Adventure</string>
+    <string name="login_string">Login</string>
+    <string name="welcome_back_string">Welcome back! 😎</string>
+    <string name="users_string">Users</string>
+    <string name="show_users_string">Show users</string>
+    <string name="register_string">Register</string>
+    <string name="username_string">Username</string>
+    <string name="password_string">Password</string>
+    <string name="confirm_password_string">Confirm password</string>
+    <string name="passwords_not_match_string">Passwords do not match</string>
+    <string name="write_username_string">You must write an username</string>
+    <string name="write_password_string">You must write a password</string>
+    <string name="write_email_string">You must write an email</string>
+    <string name="write_birthdate_string">You must write a birthdate</string>
+    <string name="write_confirm_password_string">You must confirm your password</string>
+    <string name="succesful_register_string">Register successful!</string>
+    <string name="error_register_string">Error while trying to register user</string>
+    <string name="login_succesful_string">Login successful!</string>
+    <string name="user_already_exists_string">A user with that name already exists</string>
+    <string name="incorrect_password_string">Incorrect password</string>
+    <string name="error_login_string">Error while trying to login</string>
+    <string name="user_not_exists_string">There is no user with that name</string>
+    <string name="username_short_long_string">Your username must be between %1$d and %2$d characters</string>
+    <string name="password_short_long_string">Your password must be between %1$d and %2$d characters</string>
+    <string name="email_short_long_string">Your email must be between %1$d and %2$d characters</string>
+    <string name="too_young_string">You must be at least %1$d years old to play</string>
+    <string name="email_string">Email</string>
+    <string name="birthdate_string">Birthdate</string>
+    <string name="delete_account_string">Delete my account</string>
+    <string name="change_password_string">Change password</string>
+    <string name="change_email_string">Change email</string>
+    <string name="hello_string">Hello</string>
+    <string name="confirm_new_password_string">Confirm new password</string>
+    <string name="new_password_string">New password</string>
+    <string name="forgotten_password_string">I forgot my password</string>
+    <string name="yes_string">Yes</string>
+    <string name="no_string">No</string>
+    <string name="confirm_logout_string">Are you sure you want to log out?</string>
+    <string name="logout_string">Logout</string>
+    <string name="no_internet_connection_string">Your device is not connected to the Internet!</string>
+    <string name="you_need_internet_connection_string">You need an active Internet connection to play Firefighter Adventure</string>
+    <string name="retry_string">Retry</string>
+    <string name="connection_error_string">There has been an error while trying to connect to Firefighter Adventure server</string>
+    <string name="confirm_new_email_string">Confirm new email</string>
+    <string name="new_email_string">New email</string>
+    <string name="who_we_are_string">Who we are</string>
+    <string name="must_confirm_account_deletion_string">You must confirm that you want to delete your account</string>
+    <string name="confirm_account_deletion_string">I confirm I want to permanently delete my account</string>
+    <string name="back_string">⬅️ Back</string>
+    <string name="please_enter_your_string">Please, enter your:</string>
+    <string name="or_string">or</string>
+    <string name="recover_password_string">Recover password</string>
+    <string name="ranking_string">Ranking</string>
+    <string name="you_sure_delete_account_string">Are you sure you want to permanently delete your account?</string>
+    <string name="delete_account_two_string">Delete account</string>
+    <string name="account_deleted_string">You have deleted your account</string>
+    <string name="write_confirm_new_password">You must confirm your new password</string>
+    <string name="write_new_password_string">You must write a new password</string>
+    <string name="write_current_password_string">You must write your current password</string>
+    <string name="profile_string">Profile</string>
+    <string name="score_string">Score</string>
+    <string name="level_string">Level</string>
+    <string name="ranking_position_string">Ranking position</string>
+    <string name="shop_string">Shop</string>
+    <string name="inventory_string">Inventory</string>
+    <string name="password_changed_string">You have changed your password</string>
+    <string name="either_username_email_string">You must write either a username or an email</string>
+    <string name="your_position_is_string">Your position in the ranking is</string>
+    <string name="email_changed_string">You have changed your email</string>
+    <string name="play_string">Play</string>
+    <string name="configuration_string">⚙ Configuration</string>
+    <string name="sumaya_string">Sumaya Benali</string>
+    <string name="suhail_string">Suhail Chaib</string>
+    <string name="meritxell_string">Meritxell Hermoso</string>
+    <string name="gerard_string">Gerard Milán</string>
+    <string name="lluis_string">Lluís Expósito</string>
+    <string name="eric_string">Eric Mata</string>
+    <string name="language_string">🗣 Language</string>
+
+    <string name="choose_app_language_string">️‍️Choose app language</string>
+
+    <string name="choose_a_language_string">️‍🗨️ ️Choose a language</string>
+
+    <string name="selected_language_string">Selected language:</string>
+    <string name="logged_out_string">You have logged out</string>
+    <string-array name="app_language">
+        <item>English</item>
+        <item>Catalan</item>
+        <item>Spanish</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="languages">
+        <item>en</item>
+        <item>ca</item>
+        <item>es</item>
+    </string-array>
+    <string name="search_user_string">Search for a user</string>
+    <string name="write_new_email_string">You must write a new email</string>
+    <string name="emails_do_not_match_string">Emails do not match</string>
+    <string name="write_confirm_new_email">You must confirm your new email</string>
+    <string name="user">User</string>
+    <string name="GithubFollowers" />
+    <string name="explore_followers">Explore followers</string>
+    <string name="followers_string">Followers</string>
+    <string name="repositories_string">Repositories</string>
+    <string name="following_string">Following</string>
+    <string name="githubfollowers_string">Github Followers</string>
+    <string name="explore_repositories">Explore repositories</string>
+    <string name="GithubRepositories">Github repositories</string>
+    <string name="GithubRepositories_string">Github Repositories</string>
+    <string name="Followers">Followers:</string>
+
+</resources>
